@@ -127,7 +127,7 @@ $  helm install \
    --set image.tag=latest \
    --set nginx.image.repository=registry.connect.redhat.com/cyberark/conjur-nginx \
    --set nginx.image.tag=latest \
-   --set postgres.image.repository=registry.redhat.io/rhscl/postgresql-10-rhel7 \
+   --set postgres.image.repository=registry.redhat.io/rhel8/postgresql-15 \
    --set postgres.image.tag=latest \
    --set openshift.enabled=true \
    --set dataKey="$DATA_KEY" \
